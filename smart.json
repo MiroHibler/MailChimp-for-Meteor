@@ -1,0 +1,11 @@
+{
+  "meteor": {
+    "git": "https://github.com/meteor/meteor.git",
+    "branch": "master"
+  },
+  "packages": {
+    "iron-router": {},
+    "mailchimp": {},
+    "bootstrap-3": {}
+  }
+}

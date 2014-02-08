@@ -1,0 +1,51 @@
+<template name="home">
+	<div class="container">
+		<div class="header">
+			<ul class="nav nav-pills pull-right">
+				<li class="active"><a href="{{pathFor 'home'}}">Home</a></li>
+				<li><a href="https://guthub.com/MiroHibler/meteor-mailchimp/" target="_new">GitHub</a></li>
+			</ul>
+			<h3>MailChimp for Meteor</h3>
+		</div>
+
+		<div class="jumbotron">
+			<h2>{{welcome}}</h2>
+			<p class="lead">{{additional}}</p>
+			<div class="MailChimpListSubscribe">
+				{{> MailChimpListSubscribe}}
+			</div>
+		</div>
+
+		<div class="row marketing">
+			<div class="col-lg-6">
+				<h4>1. Install package:</h4>
+				<pre>mrt add mailchimp</pre>
+				<p></p>
+				<h4>2. Insert in your template:</h4>
+				<pre>&#123;&#123;&gt; MailChimpListSubscribe&#125;&#125;</pre>
+				<p></p>
+				<h4>3. Put in your server's Meteor.startup():</h4>
+				<pre>MailChimpOptions.apiKey =<br/>&nbsp;"&lt;Your MailChimp API Key&gt;";<br/>MailChimpOptions.listId =<br/>&nbsp;"&lt;ID of your default mailing list&gt;";</pre>
+			</div>
+
+			<div class="col-lg-6">
+				<h4>Email validation</h4>
+				<p>A simple (browser only) email address validation (pure JavaScript!).</p>
+
+				<h4>API v2.0</h4>
+				<p>Uses the <a href="http://apidocs.mailchimp.com/api/2.0/" target="_new">latest API</a> available.</p>
+
+				<h4>Dependencies</h4>
+				<p>Based on <a href="https://github.com/gomfunkel/node-mailchimp/" target="_new">node-mailchimp</a> package.</p>
+
+				<h4>Version</h4>
+				<p><a href="https://guthub.com/MiroHibler/meteor-mailchimp/" target="_new">meteor-mailchimp</a> - v0.1.0</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p>&copy; M. Hibler 2014<span class="pull-right"><a href="http://eepurl.com/N1-HX">Powered by MailChimp</a></span></p>
+		</div>
+
+	</div> <!-- /container -->
+</template>
