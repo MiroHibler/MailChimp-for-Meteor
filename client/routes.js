@@ -5,7 +5,10 @@ Router.configure({
 Router.map(function() {
 	this.route( 'home', {
 		path	: '/',
-		template: 'home'
+		template: 'home',
+		after	: function() {
+			GAnalytics.pageview();
+		}
 	});
 });
 

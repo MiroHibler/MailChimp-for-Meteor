@@ -8,7 +8,8 @@
     "basePackages": {
       "iron-router": {},
       "mailchimp": {},
-      "bootstrap-3": {}
+      "bootstrap-3": {},
+      "GAnalytics": {}
     },
     "packages": {
       "iron-router": {
@@ -25,6 +26,11 @@
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
         "tag": "v3.1.0-1",
         "commit": "329dccb08bfc18c635676dea600ac9953162cda9"
+      },
+      "GAnalytics": {
+        "git": "https://github.com/datariot/meteor-ganalytics.git",
+        "tag": "v0.1.1",
+        "commit": "91b19d37687bb2cd7976fb43b482143a53509d7e"
       }
     }
   }
