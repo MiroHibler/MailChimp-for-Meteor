@@ -23,3 +23,5 @@ _MailChimp for Meteor_ is a showcase of the [MailChimp API for Meteor](https://g
 Copyright © 2014 [Miroslav Hibler](http://miro.hibler.me)
 
 _MailChimp for Meteor_ is licensed under the [**MIT**](http://miro.mit-license.org) license.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/MiroHibler/mailchimp-for-meteor/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
