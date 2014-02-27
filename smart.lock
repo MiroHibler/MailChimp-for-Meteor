@@ -2,7 +2,7 @@
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
     "branch": "master",
-    "commit": "4af3116d3faa3c4416dcfa49e32ea1d73dc15dc5"
+    "commit": "4555d2c8e4f7389d9d5fadd39d381fdb080ed742"
   },
   "dependencies": {
     "basePackages": {
@@ -14,13 +14,13 @@
     "packages": {
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.6.2",
-        "commit": "ce56e58b45624dce992490f3a1c10f10d3948bae"
+        "tag": "v0.6.4",
+        "commit": "927bbaed1b87894fb6fb70807f74ff3a5bd89f29"
       },
       "mailchimp": {
         "git": "https://github.com/MiroHibler/meteor-mailchimp.git",
-        "tag": "v0.1.0",
-        "commit": "b18736af89cd546cf130b3970aa92047f2cd265e"
+        "tag": "v0.2.0",
+        "commit": "a714b79dc4992ec2bbdbc9a152d13aab114bae3c"
       },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
