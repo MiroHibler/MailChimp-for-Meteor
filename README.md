@@ -5,7 +5,7 @@ A [MailChimp API for Meteor](https://github.com/MiroHibler/meteor-mailchimp) Sho
 
 ## Dependencies
 
- * [meteor-mailchimp](https://github.com/MiroHibler/meteor-mailchimp) - A Meteor wrapper for the MailChimp API
+ * [meteor-mailchimp](https://github.com/MiroHibler/meteor-mailchimp) - A Meteor wrapper for MailChimp API
 
 
 ## TL;DR;
@@ -14,6 +14,10 @@ _MailChimp for Meteor_ is a showcase of the [MailChimp API for Meteor](https://g
 
 
 ## Changelog
+
+### v0.2.0
+ * Update to v0.8
+ * Meteor.startup() MailChimpOptions settings replaced with settings.json (see [MailChimp API for Meteor](https://github.com/MiroHibler/meteor-mailchimp) documentation for details)
 
 ### v0.1.0
  * Initial release

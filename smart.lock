@@ -2,35 +2,40 @@
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
     "branch": "master",
-    "commit": "4555d2c8e4f7389d9d5fadd39d381fdb080ed742"
+    "commit": "c5292257533fd899dde0d4f3849864d23090c26e"
   },
   "dependencies": {
     "basePackages": {
       "iron-router": {},
-      "mailchimp": {},
       "bootstrap-3": {},
-      "GAnalytics": {}
+      "GAnalytics": {},
+      "mailchimp": {}
     },
     "packages": {
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.6.4",
-        "commit": "927bbaed1b87894fb6fb70807f74ff3a5bd89f29"
-      },
-      "mailchimp": {
-        "git": "https://github.com/MiroHibler/meteor-mailchimp.git",
-        "tag": "v0.2.0",
-        "commit": "a714b79dc4992ec2bbdbc9a152d13aab114bae3c"
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
       },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
-        "tag": "v3.1.0-1",
-        "commit": "329dccb08bfc18c635676dea600ac9953162cda9"
+        "tag": "v3.2.0-1",
+        "commit": "17a63902fc6cf1096c5289d963c66cf28b474727"
       },
       "GAnalytics": {
         "git": "https://github.com/datariot/meteor-ganalytics.git",
-        "tag": "v0.1.1",
-        "commit": "91b19d37687bb2cd7976fb43b482143a53509d7e"
+        "tag": "v0.2.0",
+        "commit": "2d5e48d5cc4c2f88edd40c0b2341d378bd4a702b"
+      },
+      "mailchimp": {
+        "git": "https://github.com/MiroHibler/meteor-mailchimp.git",
+        "tag": "v0.4.0",
+        "commit": "cabd63c49f8bf27b28a53358df475bd14b9becb0"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
       }
     }
   }

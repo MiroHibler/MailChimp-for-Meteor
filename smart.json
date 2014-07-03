@@ -5,8 +5,8 @@
   },
   "packages": {
     "iron-router": {},
-    "mailchimp": {},
     "bootstrap-3": {},
-    "GAnalytics": {}
+    "GAnalytics": {},
+    "mailchimp": {}
   }
 }
