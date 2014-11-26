@@ -2,8 +2,9 @@ Template.home.helpers({
 	welcome: function() {
 		return 'Welcome to MailChimp for Meteor!';
 	},
+
 	additional: function() {
-		return 'Add MailChimp subscription form to your app in a snap!'
+		return 'Add MailChimp subscription form to your app in a snap!';
 	}
 });
 

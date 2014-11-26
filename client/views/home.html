@@ -2,11 +2,11 @@
 	<div class="container">
 		<div class="header">
 			<ul class="nav nav-pills pull-right">
-				<li class="active"><a href="{{pathFor 'home'}}">Home</a></li>
+				<li class="active"><a href="{{pathFor route='home'}}">Home</a></li>
 				<li><a href="https://github.com/MiroHibler/meteor-mailchimp/" target="_new">GitHub</a></li>
 				<li><a href="https://giteor.com/deploy?git=com.github.MiroHibler.MailChimp-for-Meteor.master" target="_new">Giteor</a></li>
 			</ul>
-			<h3>MailChimp for Meteor</h3>
+			<h3>MailChimp for Meteor <small><a href="https://guthub.com/MiroHibler/meteor-mailchimp/" target="_new">v1.0.0</a></small></h3>
 		</div>
 
 		<div class="jumbotron">
@@ -20,13 +20,10 @@
 		<div class="row marketing">
 			<div class="col-lg-6">
 				<h4>1. Install package:</h4>
-				<pre>mrt add mailchimp</pre>
-				<p></p>
+				<pre>meteor add miro:mailchimp</pre>
+				<p><br/></p>
 				<h4>2. Insert in your template:</h4>
 				<pre>&#123;&#123;&gt; MailChimpListSubscribe&#125;&#125;</pre>
-				<p></p>
-				<h4>3. Put in your server's Meteor.startup():</h4>
-				<pre>MailChimpOptions.apiKey =<br/>&nbsp;"&lt;Your MailChimp API Key&gt;";<br/>MailChimpOptions.listId =<br/>&nbsp;"&lt;ID of your default mailing list&gt;";</pre>
 			</div>
 
 			<div class="col-lg-6">
@@ -38,14 +35,17 @@
 
 				<h4>Dependencies</h4>
 				<p>Based on <a href="https://github.com/gomfunkel/node-mailchimp/" target="_new">node-mailchimp</a> package.</p>
-
-				<h4>Version</h4>
-				<p><a href="https://guthub.com/MiroHibler/meteor-mailchimp/" target="_new">meteor-mailchimp</a> - v0.3.0</p>
 			</div>
+
+			<div class="col-lg-12">
+				<h4>3. Add to your settings.json:</h4>
+				<pre>"public":&nbsp;&#123;<br/>	"MailChimp":&nbsp;&#123;<br/>		"apiKey": "&lt;Your MailChimp API Key&gt;",<br/>		"listId":&nbsp;"&lt;ID of your default mailing list&gt;"<br>	&#125;<br>&#125;</pre>
+			</div>
+
 		</div>
 
 		<div class="footer">
-			<p>&copy; M. Hibler 2014<span class="pull-right"><a href="http://eepurl.com/N1-HX">Powered by MailChimp</a></span></p>
+			<p><a href="http://miro.mit-license.org">&copy; M. Hibler 2014</a><span class="pull-right"><a href="http://eepurl.com/N1-HX">Powered by MailChimp</a></span></p>
 		</div>
 
 	</div> <!-- /container -->

@@ -15,17 +15,21 @@ _MailChimp for Meteor_ is a showcase of the [MailChimp API for Meteor](https://g
 
 ## Changelog
 
+### v1.0.0
+ * Update to Meteor v1.0
+ * GAnalytics package replaced by [reywood:iron-router-ga](https://atmospherejs.com/reywood/iron-router-ga) package
+ * Cleanup
+
 ### v0.2.0
- * Update to v0.8
+ * Update to Meteor v0.8
  * Meteor.startup() MailChimpOptions settings replaced with settings.json (see [MailChimp API for Meteor](https://github.com/MiroHibler/meteor-mailchimp) documentation for details)
 
 ### v0.1.0
  * Initial release
+
 
 ## Copyright and license
 
 Copyright © 2014 [Miroslav Hibler](http://miro.hibler.me)
 
 _MailChimp for Meteor_ is licensed under the [**MIT**](http://miro.mit-license.org) license.
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/MiroHibler/mailchimp-for-meteor/trend.png)](https://bitdeli.com/free "Bitdeli Badge")

@@ -6,7 +6,9 @@
 standard-app-packages
 accounts-base
 accounts-password
-iron-router
-bootstrap-3
-GAnalytics
-mailchimp
+nemo64:bootstrap
+less
+reywood:iron-router-ga
+iron:router
+miro:mailchimp
+
