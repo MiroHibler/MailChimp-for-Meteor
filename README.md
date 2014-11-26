@@ -15,6 +15,12 @@ _MailChimp for Meteor_ is a showcase of the [MailChimp API for Meteor](https://g
 
 ## Changelog
 
+### v1.0.2
+ * Bumped version number in title
+
+### v1.0.1
+ * README.md: Change 'public' to 'private'
+
 ### v1.0.0
  * Update to Meteor v1.0
  * GAnalytics package replaced by [reywood:iron-router-ga](https://atmospherejs.com/reywood/iron-router-ga) package
