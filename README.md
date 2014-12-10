@@ -15,6 +15,9 @@ _MailChimp for Meteor_ is a showcase of the [MailChimp API for Meteor](https://g
 
 ## Changelog
 
+### v1.0.3
+ * Fixed error reporting
+
 ### v1.0.2
  * Bumped version number in title
 
