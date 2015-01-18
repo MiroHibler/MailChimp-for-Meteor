@@ -15,6 +15,11 @@ _MailChimp for Meteor_ is a showcase of the [MailChimp API for Meteor](https://g
 
 ## Changelog
 
+### v1.0.4
+ * Bumped version to reflect latest miro:mailchimp package version
+ * Removed Giteor link
+ * Docs update as well
+
 ### v1.0.3
  * Fixed error reporting
 
@@ -39,6 +44,6 @@ _MailChimp for Meteor_ is a showcase of the [MailChimp API for Meteor](https://g
 
 ## Copyright and license
 
-Copyright © 2014 [Miroslav Hibler](http://miro.hibler.me)
+Copyright © 2014-2015 [Miroslav Hibler](http://miro.hibler.me)
 
 _MailChimp for Meteor_ is licensed under the [**MIT**](http://miro.mit-license.org) license.
