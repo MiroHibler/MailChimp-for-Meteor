@@ -15,6 +15,14 @@ _MailChimp for Meteor_ is a showcase of the [MailChimp API for Meteor](https://g
 
 ## Changelog
 
+### v1.1.0
+ * Updated to Meteor v1.1.0.2
+ * Bumped version to reflect latest miro:mailchimp package version
+ * nemo64:bootstrap replaced with twbs:bootstrap
+ * Added Flattr link
+ * Cosmetic changes to home page
+ * Docs updated as well
+
 ### v1.0.4
  * Bumped version to reflect latest miro:mailchimp package version
  * Removed Giteor link

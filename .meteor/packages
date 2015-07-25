@@ -4,10 +4,9 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-nemo64:bootstrap
-less
 reywood:iron-router-ga
 iron:router
-miro:mailchimp
 
 accounts-password
+twbs:bootstrap
+miro:mailchimp

@@ -11,4 +11,8 @@ Template.home.helpers({
 Template.home.rendered = function () {
 	$( '.email' ).addClass( 'input-lg' );
 	$( '.subscribe' ).addClass( 'btn btn-success' );
+
+	$('[data-toggle="popover"]').popover({
+		container: 'body'
+	});
 };

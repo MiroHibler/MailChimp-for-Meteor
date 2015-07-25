@@ -2,18 +2,22 @@
 	<div class="container">
 		<div class="header">
 			<ul class="nav nav-pills pull-right">
-				<li class="active"><a href="{{pathFor route='home'}}">Home</a></li>
-				<li><a href="https://github.com/MiroHibler/meteor-mailchimp/" target="_new">GitHub</a></li>
+				<li><a href="#"><script id='fbtvqsl'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=Mirko&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbtvqsl');</script></a></li>
+				<!-- li class="active"><a href="{{pathFor route='home'}}">Home</a></li -->
+				<li class="active"><a href="https://github.com/MiroHibler/meteor-mailchimp/" target="_new">GitHub</a></li>
 			</ul>
-			<h3>MailChimp for Meteor <small><a href="https://guthub.com/MiroHibler/meteor-mailchimp/" target="_new">v1.0.4</a></small></h3>
+			<h3>MailChimp for Meteor <small>v1.1.0</small></h3>
+		</div>
+
+		<div class="alert alert-success alert-dismissible" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<strong>NEW in v1.1.0:</strong> Fully customizable subscription template! See <a href="https://github.com/MiroHibler/meteor-mailchimp/" target="_new">documentation</a> for more info.
 		</div>
 
 		<div class="jumbotron">
 			<h2>{{welcome}}</h2>
 			<p class="lead">{{additional}}</p>
-			<div class="MailChimpListSubscribe">
-				{{> MailChimpListSubscribe}}
-			</div>
+			{{> MailChimpListSubscribe}}
 		</div>
 
 		<div class="row marketing">
@@ -21,7 +25,7 @@
 				<h4>1. Install package:</h4>
 				<pre>meteor add miro:mailchimp</pre>
 				<p><br/></p>
-				<h4>2. Insert in your template:</h4>
+				<h4>2. Insert in your template <span class="badge help" data-toggle="popover" title="Customizable template in v1.1.0!" data-content="Please, take a look at package documentation (GitHub) to see how to include the template.">?</span> :</h4>
 				<pre>&#123;&#123;&gt; MailChimpListSubscribe&#125;&#125;</pre>
 			</div>
 
@@ -30,7 +34,7 @@
 				<p>A simple (browser only) email address validation (pure JavaScript!).</p>
 
 				<h4>API v2.0</h4>
-				<p>Uses the <a href="http://apidocs.mailchimp.com/api/2.0/" target="_new">latest API</a> available.</p>
+				<p>Uses <a href="http://apidocs.mailchimp.com/api/2.0/" target="_new">MailChimp API v2.0</a>.</p>
 
 				<h4>Dependencies</h4>
 				<p>Based on <a href="https://github.com/gomfunkel/node-mailchimp/" target="_new">node-mailchimp</a> package.</p>
